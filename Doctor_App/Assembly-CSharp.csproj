@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Assets\Scripts\CameraOrbit.cs" />
     <Compile Include="Assets\Assets\Scripts\DateTime.cs" />
+    <Compile Include="Assets\Assets\Scripts\Highlight.cs" />
     <Compile Include="Assets\Assets\Scripts\rotateSkull.cs" />
     <Compile Include="Assets\Assets\Scripts\Skull.cs" />
     <Compile Include="Assets\Assets\Scripts\skullData.cs" />
