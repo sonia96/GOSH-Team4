@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{C2797E7D-4BAA-2548-3E7A-45E4A7FBF4D9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/rotateSkull.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/Scripts/Skull.cs">
     <Files>
-      <File FileName="Assets/Scripts/DateTime.cs" Line="5" Column="22" />
-      <File FileName="Assets/Assets/rotateSkull.cs" Line="6" Column="1" />
+      <File FileName="Assets/Assets/Scripts/CameraOrbit.cs" Line="22" Column="5" />
+      <File FileName="Assets/Assets/Scripts/rotateSkull.cs" Line="16" Column="2" />
+      <File FileName="Assets/Assets/Scripts/skullData.cs" Line="8" Column="1" />
+      <File FileName="Assets/Assets/Scripts/Skull.cs" Line="25" Column="21" />
+      <File FileName="Assets/Assets/Scripts/DateTime.cs" Line="11" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
