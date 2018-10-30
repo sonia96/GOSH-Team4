@@ -11,7 +11,7 @@ public class CameraOrbit : MonoBehaviour {
 
     //Constant to adjust camera distance 
     private float currentCameraDist = 6f;
-    private readonly float minCameraDist = 3f;
+    private readonly float minCameraDist = 4f;
     private readonly float maxCameraDist = 15f;
 
     //Constants to adjust Scroll/Orbit Sensitivity 
