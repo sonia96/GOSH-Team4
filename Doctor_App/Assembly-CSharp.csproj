@@ -65,6 +65,7 @@
     <Compile Include="Assets\Assets\Scripts\DateTime.cs" />
     <Compile Include="Assets\Assets\Scripts\Highlight.cs" />
     <Compile Include="Assets\Assets\Scripts\rotateSkull.cs" />
+    <Compile Include="Assets\Assets\Scripts\ShowCuts.cs" />
     <Compile Include="Assets\Assets\Scripts\Skull.cs" />
     <Compile Include="Assets\Assets\Scripts\skullData.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
