@@ -1,0 +1,2 @@
+/Users/Zuka/Documents/GitHub/GOSH-Team4/Doctor_App/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache
+/Users/Zuka/Documents/GitHub/GOSH-Team4/Doctor_App/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
