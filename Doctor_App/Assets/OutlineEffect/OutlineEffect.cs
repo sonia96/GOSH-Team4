@@ -34,6 +34,8 @@ namespace cakeslice
     [ExecuteInEditMode]
     public class OutlineEffect : MonoBehaviour
     {
+        bool areahascolor = false;
+        bool linehascolor = false;
         private static OutlineEffect m_instance;
         public static OutlineEffect Instance
         {
@@ -51,15 +53,15 @@ namespace cakeslice
 
         private readonly LinkedSet<Outline> outlines = new LinkedSet<Outline>();
 
-        [Range(1.0f, 6.0f)]
-        public float lineThickness = 1.25f;
+        [Range(0f, 6.0f)]
+        public float lineThickness = 2f;
         [Range(0, 10)]
         public float lineIntensity = .5f;
         [Range(0, 1)]
         public float fillAmount = 0.2f;
 
-        public Color lineColor0 = Color.red;
-        public Color lineColor1 = Color.green;
+        public Color lineColor0 = Color.white;
+        public Color lineColor1 = Color.white;
         public Color lineColor2 = Color.blue;
 
         public bool additiveRendering = false;
@@ -116,6 +118,31 @@ namespace cakeslice
             m.DisableKeyword("_ALPHAPREMULTIPLY_ON");
             m.renderQueue = 3000;
             return m;
+        }
+
+        public void HighlightArea()
+        {
+            if(areahascolor)
+            {
+                fillAmount = 0f;
+            }
+            else{
+                fillAmount = 0.1f;
+            }
+            areahascolor = !areahascolor;
+        }
+
+        public void ShowCutLines()
+        {
+            if(linehascolor)
+            {
+                lineThickness = 0f;
+            }
+            else
+            {
+                lineThickness = 2f;
+            }
+            linehascolor = !linehascolor;
         }
 
         private void Awake()

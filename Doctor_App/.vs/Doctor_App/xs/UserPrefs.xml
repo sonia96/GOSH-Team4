@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{C2797E7D-4BAA-2548-3E7A-45E4A7FBF4D9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/CameraOrbit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OutlineEffect/OutlineEffect.cs">
     <Files>
       <File FileName="Assets/Scripts/DateTime.cs" Line="5" Column="22" />
       <File FileName="Assets/Assets/rotateSkull.cs" Line="6" Column="1" />
       <File FileName="Assets/Assets/CameraOrbit.cs" Line="14" Column="45" />
       <File FileName="Assets/rotateSkull.cs" Line="7" Column="30" />
+      <File FileName="Assets/Scripts/PlayAnimation.cs" Line="12" Column="1" />
+      <File FileName="Assets/animeControl.cs" Line="27" Column="36" />
+      <File FileName="Assets/OutlineEffect/OutlineEffect.cs" Line="211" Column="31" />
+      <File FileName="Assets/OutlineEffect/Outline.cs" Line="1" Column="1" />
+      <File FileName="Assets/ChangeColor.cs" Line="13" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
