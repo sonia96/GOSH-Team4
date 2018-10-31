@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2018-10-31T10:56:52.639+00:00
+  initializedAtString: 2018-10-31T10:55:36.697+00:00
+  localBranches:
+  - name: Zuka
+    tracking: origin/Zuka
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/Iwan
+    tracking: '[None]'
+  - name: origin/Y
+    tracking: '[None]'
+  - name: origin/Zuka
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Zuka98/GOSH-Team4.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - Zuka
+    - master
+    values:
+    - name: Zuka
+      remote:
+        name: origin
+        url: https://github.com/Zuka98/GOSH-Team4.git
+      trackingBranch: Zuka
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/Zuka98/GOSH-Team4.git
+      trackingBranch: master
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - Iwan
+      - Y
+      - Zuka
+    subKeyValues:
+    - Values:
+      - name: Iwan
+        remote:
+          name: origin
+          url: https://github.com/Zuka98/GOSH-Team4.git
+        trackingBranch: 
+      - name: Y
+        remote:
+          name: origin
+          url: https://github.com/Zuka98/GOSH-Team4.git
+        trackingBranch: 
+      - name: Zuka
+        remote:
+          name: origin
+          url: https://github.com/Zuka98/GOSH-Team4.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Zuka98/GOSH-Team4.git
